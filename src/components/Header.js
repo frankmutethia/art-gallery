@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavLinks from './NavLinks';
 import Logo from "../assets/logo.jpg";
-import Button from './Button';
+// import Button from './Button';
 
 const Header = () => {
 const [open, setOpen] =useState(false);
@@ -28,7 +28,7 @@ const [open, setOpen] =useState(false);
   <NavLinks/>
 </ul>
 <div className="md:block hidden">
-  <Button/>
+  {/* <Button/> */}
 </div>
   {/* Mobile nav */}
 <ul className={`
@@ -42,7 +42,7 @@ const [open, setOpen] =useState(false);
   </li>
   <NavLinks/>
   <div className='py-5'>
-  <Button/>
+  {/* <Button/> */}
   </div>
 </ul>
     </div>
